@@ -66,7 +66,7 @@ const App = () => {
           project_name: selectedProject.title,
           name: formData.name,
           email: formData.email,
-          phone: formData.phone || 'N/A',
+          phone: formData.phone,
           message: formData.message,
           botcheck: "" // Honeypot
         })
